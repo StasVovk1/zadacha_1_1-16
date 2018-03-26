@@ -215,7 +215,7 @@
 
         function counts($mass){
             $i = 1;            
-            while ($mass[$i] != null){
+            while ($mass[$i].'' != ''){
                 $i++;
             }
             return $i;

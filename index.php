@@ -11,11 +11,11 @@
     $numberN = new numberN();
     $fourNumber = new four_digitNumbers();
 
-    echo '1 задание. Исходные данные N = '.$numberN->getN().' ответ: '.$numberN->countNumber(5);
-    echo '<br>2 задание. Исходные данные n = '.$n.' ответ: '.$fourNumber->summNumeralNumber($n);
+    echo ' 1 задание. Исходные данные N = '.$numberN->getN().' ответ: '.$numberN->countNumber(5);
+    echo '<br> 2 задание. Исходные данные n = '.$n.' ответ: '.$fourNumber->summNumeralNumber($n);
     $perem = $numberN->ascendingSequence();
-    echo '<br>3 задание. Исходные данные N = '.$numberN->getN().' ответ: '.$perem['messedg']['increases'];
-    echo '<br>4 задание. Ответ: <br>'.arrayJsonToString($fourNumber->incrAndDecr()).'<br>';
+    echo '<br> 3 задание. Исходные данные N = '.$numberN->getN().' ответ: '.$perem['messedg']['increases'];
+    echo '<br> 4 задание. Ответ: <br>'.arrayJsonToString($fourNumber->incrAndDecr()).'<br>';
     echo '<br> 5 задание. Исходное значение '.$numberN->getN().' ответ: '.$numberN->conversely();
     echo '<br> 6 задание. Ответ: '.$fourNumber->onlyNumbers();
     $perem = $numberN->sameDigits();
