@@ -72,7 +72,7 @@ class four_digitNumbers extends defFunction{
 function arrayJsonToString($json){
     $json = json_decode($json);
     if ($json){
-        for ($i = 0; $i < $this->counts($json); $i++){
+        for ($i = 0; $i < defFunction::counts($json); $i++){
             $string .= $json[$i].'<br>';
         }
     }
